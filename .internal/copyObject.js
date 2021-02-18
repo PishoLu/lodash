@@ -3,6 +3,7 @@ import baseAssignValue from './baseAssignValue.js'
 
 /**
  * Copies properties of `source` to `object`.
+ * 
  *
  * @private
  * @param {Object} source The object to copy properties from.

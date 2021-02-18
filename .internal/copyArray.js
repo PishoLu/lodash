@@ -1,6 +1,7 @@
 /**
  * Copies the values of `source` to `array`.
- *
+ * 获取数组长度并逐个复制。
+ * 
  * @private
  * @param {Array} source The array to copy values from.
  * @param {Array} [array=[]] The array to copy values to.

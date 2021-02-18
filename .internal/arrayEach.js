@@ -1,5 +1,6 @@
 /**
  * A specialized version of `forEach` for arrays.
+ * 接收一个数组和一个函数，遍历该数组的值作为函数参数，当函数返回false时停止。
  *
  * @private
  * @param {Array} [array] The array to iterate over.

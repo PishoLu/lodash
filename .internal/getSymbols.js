@@ -16,6 +16,7 @@ function getSymbols(object) {
     return []
   }
   object = Object(object)
+  // 返回对象中的所有 symbol 属性中的可枚举值
   return nativeGetSymbols(object).filter((symbol) => propertyIsEnumerable.call(object, symbol))
 }
 
